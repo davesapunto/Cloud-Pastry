@@ -1,0 +1,120 @@
+/* DashboardNav.css */
+.dashboard-navbar {
+  background-color: black;
+  width: 350px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed; /* Make the navbar fixed */
+  top: 0; /* Stick it to the top */
+  left: 0; /* Stick it to the left */
+  overflow-y: auto; /* Add scroll if necessary */
+  z-index: 1000; /* Set z-index to make sure it's on top */
+}
+  
+  /* Background Image */
+  .background-image {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 230px;
+    height: 230px;
+    background-image: url('/public/Paccinos Logo.png');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Options Menu */
+  .options-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-top: 20px;
+  }
+  
+  .option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: white;
+    position: relative;
+  }
+  
+  .option:hover {
+    color: hsl(44, 63%, 50%); /* Change text color on hover */
+  }
+  
+  .option-container {
+    margin-right:10px;
+    margin-left:10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Add the gap property */
+    transition: color 0.3s ease; /* Add color transition for the container */
+  }
+  
+  .option-icon {
+    color: white;
+    font-size: 24px; /* Adjust the font size as needed */
+  }
+  
+  .option:hover .option-container {
+    color: hsl(44, 63%, 50%); /* Change container color on hover */
+  }
+  
+  .option-text {
+    font-size: 18px; /* Adjust the font size as needed */
+    font-weight: bold; /* Make the text bold */
+    transition: color 0.1s ease; /* Add color transition for text */
+  }
+  
+  .option:hover .option-text {
+    color: hsl(44, 63%, 50%); /* Change text color on hover */
+  }
+  
+  /* Log Out Option */
+
+  .logout-side {
+    margin-top: auto; /* Move to the bottom */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+/* Divider Line */
+.nav-divider-line {
+    width: 200%; /* Increase the width for a longer divider line */
+    height: 1px;
+    background-color: white;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .logout-option {
+    display: flex;
+    align-items: center;
+    margin-top: auto; /* Move to the bottom */
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 30px;
+    gap: 10px;
+  }
+  
+  .logout-option:hover {
+    color: hsl(44, 63%, 50%); /* Change text color on hover */
+  }
+  
+  .logout-option:hover .option-icon {
+    color: hsl(44, 63%, 50%); /* Change icon color on hover */
+    transition: color 0.3s ease; /* Add color transition for icon */
+  }
+
+  .selected {
+    background-color: rgb(46, 46, 46);
+    border-radius: 10px;
+  }

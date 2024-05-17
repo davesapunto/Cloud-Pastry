@@ -1,0 +1,23 @@
+/* AddProductChoices.css */
+
+.AddProductChoices {
+    margin-left: 70px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .AddProductChoices-option {
+    color: #666666; /* Grey color for the text */
+    text-decoration: none; /* Remove default underline */
+    margin: 0 10px; /* Add spacing between options */
+  }
+  
+  .AddProductChoices-option.active {
+    font-weight: bold;
+    color: hsl(44, 63%, 50%); /* Color for the active option text */
+  }
+  
+  .AddProductChoices-divider {
+    color: #666666; /* Grey color for the text */
+  }
+  

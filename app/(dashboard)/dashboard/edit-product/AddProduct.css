@@ -1,0 +1,206 @@
+/* AddProduct.css */
+
+.add-prod-app {
+  display: flex;
+  height: 100vh;
+}
+
+.add-prod-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding-top: 40px;
+  margin-left: 80px;
+}
+
+.add-prod-label {
+  font-weight: bold;
+  color: black;
+  margin-bottom: 10px; /* Add some space below the label */
+}
+
+.add-prod-input-container {
+  display: flex; /* Use flexbox */
+  align-items: baseline; /* Align items along the baseline */
+  margin-bottom: 30px; /* Add space between input containers */
+}
+
+.add-prod-input {
+  width: 200px; /* Set width of input field */
+  margin-left: 10px; /* Add some space between the label and input */
+  padding: 10px; /* Add some padding */
+  border: 1px solid #ccc; /* Add a border */
+  border-radius: 5px; /* Add some border-radius for rounded corners */
+  font-size: 16px; /* Set font size */
+}
+
+.add-prod-price-label {
+  font-weight: bold;
+  color: black;
+  margin-right: 10px; /* Add some space between the price label and peso sign */
+}
+
+.add-prod-price-sign {
+  font-weight: bold;
+  color: #666666; /* Grey color for the peso sign */
+  font-size: 16px; /* Set font size */
+}
+
+.add-prod-price-input {
+  width: 100px; /* Set width of price input field */
+  margin-left: 10px; /* Add some space between the peso sign and input */
+  padding: 10px; /* Add some padding */
+  border: 1px solid #ccc; /* Add a border */
+  border-radius: 5px; /* Add some border-radius for rounded corners */
+  font-size: 16px; /* Set font size */
+}
+
+.add-prod-upload-label {
+  font-weight: bold;
+  color: black;
+  margin-bottom: 30px; /* Add some space below the label */
+}
+
+.add-prod-small-text {
+  margin-left: 20px;
+  color: #666666; /* Grey color for smaller text */
+}
+
+.dashed-container {
+  margin-left: 20px;
+  border: 2px dashed #ccc;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row; /* Upload images vertically */
+  align-items: flex-start; /* Align items to the start */
+  padding: 20px;
+  margin-bottom:30px;
+  overflow-x: auto;
+  min-height: 285px;
+  max-width: 285px;
+}
+
+.add-photo-button {
+  background-color: #f5f5f5;
+  border: none;
+  border-radius: 10px;
+  margin-top: 13px;
+  padding: 50px; /* Increase padding to make the button larger */
+  margin-bottom: 20px; /* Add margin to separate button from images */
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-left: 20px;
+  margin-right: 20px;
+  max-width: 200px;
+  min-width: 200px;
+}
+
+.img-container {
+  margin-top: 13px;
+  margin-right: 20px; /* Add margin between images */
+  position: relative; /* Ensure positioning context for absolute positioning */
+}
+
+.image-wrapper {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px; /* Set the width of the image container */
+  height: 200px; /* Set the height of the image container */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Ensure image does not overflow */
+}
+
+.uploaded-img {
+  width: 100%; /* Ensure the image fills the container */
+  height: 100%; /* Ensure the image fills the container */
+  object-fit: cover; /* Fill the container without stretching the image */
+}
+
+.remove-img-button {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: absolute; /* Position absolutely */
+  top: 5px; /* Adjust top position */
+  right: 5px; /* Adjust right position */
+}
+
+.add-prod-category-label {
+  font-weight: bold;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.category-option {
+  color: black;
+  margin-bottom: 10px;
+}
+
+.category-option input[type="radio"] {
+  margin-right: 10px; /* Add space between radio button and text */
+}
+
+.category-option label {
+  margin-right: 20px; /* Add space between radio button and text */
+}
+
+.category-option input[type="radio"]:checked {
+  filter: hue-rotate(195deg); /* Change the color of the radio button when clicked */
+}
+
+
+.add-category {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.add-category-button {
+  background-color: #f5f5f5;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.add-category-icon {
+  font-size: 24px;
+  color: grey;
+}
+
+.add-category-text {
+  color: black;
+  margin-left: 10px;
+}
+
+.add-category-input {
+  margin-left: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.add-prod-description-label {
+  font-weight: bold;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.ql-editor {
+  color: black; /* Set text color to black */
+}

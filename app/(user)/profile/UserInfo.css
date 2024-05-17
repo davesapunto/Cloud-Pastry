@@ -1,0 +1,62 @@
+/* UserInfo.css */
+
+    .user-info-user-info-container {
+      margin-top: 20px;
+      margin-left: 20px;
+      padding: 30px;
+      width: 1000px; /* Set width */
+      height: auto; /* Auto height */
+      background-color: #f5f5f5; /* Background color */
+      border: 1px solid rgb(209, 209, 209); /* Border color */
+      border-radius: 10px; /* Border radius */
+    }
+    
+    .user-info-user-info-header {
+      font-size: 44px;
+      color: black;
+      margin-left: 0;
+      margin-bottom: 20px;
+    }
+  
+    .user-info-name-info,
+    .user-info-phone-info,
+    .user-info-email-info,
+    .user-info-password-info,
+    .user-info-address-info {
+      color: black;
+      display: flex;
+      align-items: center;
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .user-info-name-info .space-between,
+    .user-info-phone-info .space-between,
+    .user-info-email-info .space-between,
+    .user-info-password-info .space-between,
+    .user-info-address-info .space-between {
+      margin-right: 5px; /* Adjust spacing as needed */
+    }
+    
+    .user-info-grey-text {
+      color: grey;
+    }
+    
+    .user-info-edit-button,
+    .user-info-save-button {
+      background-color: transparent;
+      border: none;
+      color: black;
+      cursor: pointer;
+      margin-left: auto;
+    }
+    
+    .user-info-email-reminder {
+      color: black;
+      background-color: #ffffcc; /* Light yellow */
+      padding: 5px 10px;
+      border-radius: 5px;
+      font-size: 14px;
+      margin-top: 5px;
+    }
+  

@@ -1,0 +1,115 @@
+.recieve-orders-container {
+    background-color: #f5f5f5;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.recieve-orders-status {
+    font-size: 20px;
+    color: #707070;
+    display: flex;
+    align-items: center;
+    margin-left: auto; /* Move recieve-orders-status to the right */
+}
+
+.delivery-icon {
+    margin-right: 10px;
+}
+
+.recieve-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.recieve-content-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Add spacing between each product */
+}
+
+.recieve-picture-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 130px;
+    min-height: 130px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.recieve-text-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.recieve-product-name {
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+.recieve-product-info, .recieve-product-price {
+    margin-top: 10px;
+    color: #979797;
+    text-align: center;
+}
+
+.additional-container {
+    color: black;
+    margin-top: 20px;
+    text-align: right;
+}
+
+.divider-line {
+    border-bottom: 1px solid black;
+    width: auto;
+    margin-top: 20px;
+}
+
+.cancel-order-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.total-payment-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.total-payment-text {
+    color: #707070;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.total-payment-amount {
+    margin-left: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.view-product-button {
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 23px;
+    padding: 10px 20px;
+    margin-left: 30px;
+    background-color: hsl(44, 63%, 50%);
+    color: white;
+    border: none;
+}

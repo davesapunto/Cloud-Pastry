@@ -1,0 +1,91 @@
+/* src/components/User.css */
+
+.user-main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+  .user-photo-container {
+    width: 230px;
+    height: 230px;
+    background-color: rgb(187, 187, 187);
+    border: 10px solid white;
+    position: absolute;
+    border-radius: 200px;
+    transform: translate(-250%, 120%);
+    z-index: 1;
+  }
+
+  .user-name-container {
+    position: absolute;
+    transform: translate(7%, 420%);
+    z-index: 1;
+  }
+
+  .user-name{
+    color: rgb(255, 255, 255);
+    width: 1000px;
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+  .user-name-highlight {
+    color: hsl(44, 63%, 50%);
+  }
+  
+  .user-header {
+    background-color: black;
+    color: white;
+    text-align: left;
+    padding: 200px 0;
+    width: 100vw;
+    position: relative;
+    box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .user-button-container {
+    position: relative;
+    min-width: 950px;
+    max-width: 950px; 
+    padding-left: 170px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 100px;
+}
+
+.user-button-receive{
+    text-decoration: none;
+    color: black;
+    padding-top: 60px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column; /* Align icon and text vertically */
+    align-items: center; /* Center items horizontally */
+    flex-wrap: wrap;
+    max-width: 300px;
+    min-width: 300px;
+    max-height: 300px;
+    min-height: 300px;
+    background-color: #f5f5f5;
+    box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Add transitions */
+}
+
+.user-button-receive:hover:hover {
+  background-color: #ebebeb;
+}
+
+.user-button-receive{
+    margin-right: 40px;
+}
+
+.receive-text {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 5px; /* Adjust spacing between icon and text */
+  }

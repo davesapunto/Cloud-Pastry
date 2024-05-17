@@ -1,0 +1,94 @@
+/* src/components/Navigator.css */
+  
+  .navbar-container {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+
+  .navbar-container.scroll-up {
+    transform: translateY(-100%);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .navbar-container.scroll-down {
+    transform: translateY(0);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: -1;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 15px;
+  }
+  
+  .left-side {
+    font-size: 36px;
+  }
+  
+  .left-side a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Baskerville', serif;
+    position: relative;
+    transition: font-size 0.3s;
+  }
+  
+  .left-side a:hover {
+    font-size: 32px; /* Adjust the size as needed */
+  }
+
+  .right-side ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 65px; /* Adjust the spacing between options */
+  }
+  
+  .right-side li {
+    margin-right: 25px; /* Adjust the spacing between options */
+  }
+  
+  .right-side a {
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    transition: color 0.3s;
+  }
+  
+  .right-side a:hover {
+    color: hsl(44, 60%, 29%);
+  }
+  
+  .right-side a::before,
+  .nav-link::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: hsl(44, 63%, 50%);
+    bottom: -5px; /* Adjust the gap */
+    left: 50%;
+    transform: translateX(-50%);
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .right-side a:hover::before,
+  .nav-link:hover::before {
+    width: 100%;
+  }

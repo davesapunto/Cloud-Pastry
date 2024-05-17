@@ -1,0 +1,17 @@
+/* OrderHistoryScreen.css */
+
+.OrderHistoryScreen-app {
+    display: flex;
+    height: 100vh;
+    margin-left: 350px;
+    margin-bottom: 350px;
+  }
+  
+  .OrderHistoryScreen-main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+  }
+  

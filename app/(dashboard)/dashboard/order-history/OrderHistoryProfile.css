@@ -1,0 +1,65 @@
+/* DeliverProfile.css */
+
+.order-history-container {
+    background-color: white;
+    border: 1px solid #b4b4b4;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    position: relative; /* For positioning the deliver button */
+    margin-bottom: 20px;
+}
+
+.order-history-name {
+    font-size: 24px; /* Adjust text size as needed */
+    font-weight: bold;
+    color: black; /* Set text color to black */
+    margin-right: auto; /* Push to the left as much as possible */
+    margin-bottom: 10px;
+}
+
+.order-history-content-container {
+    display: flex;
+    align-items: flex-end; /* Align items to the bottom */
+    margin-top: auto; /* Push to the bottom */
+}
+
+.order-history-picture-container {
+    min-width: 130px; /* Set width of the image container */
+    min-height: 130px; /* Set height of the image container */
+    background-color: #f0f0f0; /* Background color for image container */
+}
+
+.order-history-text-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px; /* Add space between picture container and text container */
+    padding-bottom: 40px;
+}
+
+.order-history-product-name {
+    font-weight: bold;
+    color: black;
+}
+
+.order-history-product-info {
+    margin-top: 10px;
+    color: #b4b4b4;
+}
+
+.order-history-product-price {
+    margin-top: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+.order-history-delivered-container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding-bottom: 95px;
+    padding-right:20px;
+}

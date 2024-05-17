@@ -1,0 +1,15 @@
+/* src/components/DashboardScreen.css */
+
+.DashboardScreen-app {
+  display: flex;
+  height: 100vh;
+  margin-left: 350px;
+}
+
+.DashboardScreen-main-content {
+  flex: 1;
+  display: flex; /* Add display: flex */
+  flex-direction: column; /* Adjust as needed */
+  background-color: white;
+  padding: 20px;
+}

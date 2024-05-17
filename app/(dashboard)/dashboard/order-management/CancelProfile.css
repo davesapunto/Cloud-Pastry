@@ -1,0 +1,74 @@
+/* CancelProfile.css */
+
+.cancel-orders-container {
+    background-color: white;
+    border: 1px solid #b4b4b4;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    position: relative; /* For positioning the cancel button */
+    margin-bottom: 20px;
+}
+
+.cancel-orders-name {
+    font-size: 24px; /* Adjust text size as needed */
+    font-weight: bold;
+    color: black; /* Set text color to black */
+    margin-right: auto; /* Push to the left as much as possible */
+    margin-bottom: 10px;
+}
+
+.cancel-content-container {
+    display: flex;
+    align-items: center; /* Align items to the bottom */ /* Push to the bottom */
+}
+
+.cancel-picture-container {
+    min-width: 130px; /* Set width of the image container */
+    min-height: 130px; /* Set height of the image container */
+    background-color: #f0f0f0; /* Background color for image container */
+}
+
+.cancel-text-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px; /* Add space between picture container and text container */
+    padding-bottom: 40px;
+}
+
+.cancel-product-name {
+    font-weight: bold;
+    color: black;
+}
+
+.cancel-product-info {
+    margin-top: 10px;
+    color: #b4b4b4;
+}
+
+.cancel-product-price {
+    margin-top: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+.cancel-cancel-container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding-bottom: 120px;
+    padding-right:20px;
+}
+
+.cancel-cancel {
+    border: none;
+    border-radius: 5px;
+    color: hsl(4, 82%, 35%);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+}

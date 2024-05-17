@@ -1,0 +1,93 @@
+/* src/components/Footer.tsx */
+
+.parent-footer {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  max-width: 84.375em;
+  padding: 3em 2rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.divider {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.dashboard-link{
+  text-decoration: none;
+}
+
+.footer-heading {
+  color: white;
+  font-size: 3rem;
+  padding-bottom: 1.25rem;
+}
+
+.order-text {
+  color: hsl(44, 63%, 50%);
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.social-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.right {
+  padding-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-size {
+  width: 1.5rem;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+  font-size: 2rem;
+  color: hsl(44, 63%, 50%);
+  padding-bottom: 1rem;
+}
+
+.data-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.icon-link {
+  color: inherit; /* Inherit color from the parent (default color) */
+}
+
+.Link-name {
+  text-decoration: none;
+  color: inherit;
+}
+
+@media screen and (min-width: 768px) {
+  .divider {
+    flex-direction: row;
+  }
+
+  .data-content {
+    text-align: end;
+  }
+
+  .right {
+    align-items: end;
+  }
+}

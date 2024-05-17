@@ -1,0 +1,130 @@
+/* ToRecieveCancel.css */
+
+.cancel-order-text {
+    margin-top: 75px;
+    color: #707070;
+    font-size: 20px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-container {
+    background-color: white;
+    border-radius: 30px;
+    padding: 50px;
+    width: 700px;
+    max-width: 90%;
+    display: flex;
+    justify-content: flex-start; /* Align content to the left */
+  }
+
+  .modal-content {
+    flex: 1; /* Take up remaining space */
+  }
+
+  .modal-header {
+    font-size: 70px;
+    color: hsl(44, 63%, 50%);
+    text-align: left; /* Align text to the left */
+    display: flex;
+    align-items: center;
+  }
+  
+  .exclamation-icon {
+    font-size: 70px;
+    color: hsl(44, 63%, 50%);
+    margin-left: 20px;
+  }
+  
+  .modal-container {
+    background-color: white;
+    border-radius: 30px;
+    padding: 50px;
+    width: 700px;
+    max-width: 90%;
+    text-align: center;
+  }
+
+  .modal-text {
+    font-size: 20px;
+    color: #000;
+    text-align: left; /* Align text to the left */
+  }
+
+  .options-container {
+    margin-left: 15px;
+    margin-top: 20px;
+  }
+
+  .radio-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .radio-label {
+    font-size: 20px;
+    color: #000;
+    margin-left: 10px; /* Add margin between radio button and label */
+    text-align: left; /* Align text to the left */
+  }
+  
+  .reason-textarea {
+    width: calc(100% - 20px); /* Adjusted width to account for padding */
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 10px; /* Anchor the textarea to the left */
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    text-align: left; /* Align text to the left */
+  }
+  
+  
+  .reason-textarea::placeholder {
+    color: #ccc;
+  }
+
+  .cancel-button-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-end; /* Position buttons on the right */
+  }
+  
+  .cancel-cancel-button,
+  .cancel-submit-button {
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .cancel-cancel-button {
+    background-color: #fff;
+    border: 2px solid #ccc;
+    color: #707070;
+    margin-right: 10px; /* Add space between buttons */
+  }
+  
+  .cancel-submit-button {
+    background-color: hsl(44, 63%, 50%);
+    color: #fff;
+    font-weight: bold;
+    border: none;
+  }

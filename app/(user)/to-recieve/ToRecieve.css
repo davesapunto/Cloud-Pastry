@@ -1,0 +1,27 @@
+/* src/components/ToRecieve.css */
+
+.recieve-main-content {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.recieve-header {
+    width: 300px;
+    margin-top: 50px;
+    margin-right: 1070px;
+    position: relative;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+
+.recieve-custom-box {
+    margin-top: 40px;
+    border-radius: 10px;
+    max-width: 1370px;
+    min-width: 1370px;
+    height: auto;
+}

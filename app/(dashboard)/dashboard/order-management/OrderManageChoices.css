@@ -1,0 +1,23 @@
+/* OrderManageChoices.css */
+
+.OrderManageChoices {
+    margin-left: 70px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .OrderManageChoices-option {
+    color: #666666; /* Grey color for the text */
+    text-decoration: none; /* Remove default underline */
+    margin: 0 10px; /* Add spacing between options */
+  }
+  
+  .OrderManageChoices-option.active {
+    font-weight: bold;
+    color: hsl(44, 63%, 50%); /* Color for the active option text */
+  }
+  
+  .OrderManageChoices-divider {
+    color: #666666; /* Grey color for the text */
+  }
+  

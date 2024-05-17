@@ -1,0 +1,74 @@
+/* DeliverProfile.css */
+
+.deliver-orders-container {
+    background-color: white;
+    border: 1px solid #b4b4b4;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    position: relative; /* For positioning the deliver button */
+    margin-bottom: 20px;
+}
+
+.deliver-orders-name {
+    font-size: 24px; /* Adjust text size as needed */
+    font-weight: bold;
+    color: black; /* Set text color to black */
+    margin-right: auto; /* Push to the left as much as possible */
+    margin-bottom: 10px;
+}
+
+.deliver-content-container {
+    display: flex;
+    align-items: flex-end; /* Align items to the bottom */
+    margin-top: auto; /* Push to the bottom */
+}
+
+.deliver-picture-container {
+    min-width: 130px; /* Set width of the image container */
+    min-height: 130px; /* Set height of the image container */ /* Background color for image container */
+}
+
+.deliver-text-container {
+    display: flex;
+    flex-direction: column;
+    /* Add space between picture container and text container */
+    padding-bottom: 40px;
+}
+
+.deliver-product-name {
+    font-weight: bold;
+    color: black;
+}
+
+.deliver-product-info {
+    margin-top: 10px;
+    color: #b4b4b4;
+}
+
+.deliver-product-price {
+    margin-top: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+.deliver-delivered-container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding-bottom: 120px;
+    padding-right:20px;
+}
+
+.deliver-delivered {
+    border: none;
+    border-radius: 5px;
+    color: #2fd045;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+}

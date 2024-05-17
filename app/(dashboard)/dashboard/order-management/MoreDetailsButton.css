@@ -1,0 +1,73 @@
+.details-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background to dim the site */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999; /* Ensure the overlay is above other elements */
+}
+
+.details-box {
+  color: black;
+  width: 400px;
+  height: auto;
+  background-color: white;
+  border: 1px solid #b4b4b4;
+  border-radius: 10px;
+  padding: 30px;
+  position: relative;
+}
+
+.delivery-header {
+  font-size: 24px;
+  font-weight: bold;
+  display: flex; /* Display as flex container */
+  align-items: center; /* Center vertically */
+  margin-bottom: 20px;
+}
+
+.location-icon {
+  margin-right: 10px;
+}
+
+.divider {
+  border: 0;
+  border-top: 1px solid black;
+  margin: 20px 0;
+}
+
+.photos-container {
+  margin-top: 20px;
+  width: 100px;
+  height: 100px;
+  background-color: #f0f0f0;
+  margin-right: 20px;
+  float: left;
+}
+
+.product-details {
+  margin-top: 20px;
+  float: left;
+}
+
+.close-button {
+  width: 120px;
+  height: 40px;
+  background-color: hsl(44, 63%, 50%);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.grey-text {
+  color: grey;
+}

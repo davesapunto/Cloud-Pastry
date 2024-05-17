@@ -1,0 +1,22 @@
+/* src/components/DashboardHeader.css */
+
+.DashboardScreen-header {
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff; /* Ensure background color is set */
+  border-bottom: 1px solid #ccc; /* Add a border for separation */
+}
+
+.DashboardScreen-title {
+  color: black;
+  margin: 0; /* Reset margin to remove default margin */
+}
+
+.DashboardScreen-user-profile {
+  cursor: pointer;
+  color: black;
+  /* Add any other styling as needed */
+}
