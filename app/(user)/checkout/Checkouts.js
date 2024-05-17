@@ -7,7 +7,6 @@ import { addDoc, getDocs, getDoc, collection, doc, deleteDoc } from 'firebase/fi
 import { getStorage, ref, getDownloadURL } from 'firebase/storage';
 import { MdLocationOn } from "react-icons/md";
 import "./Checkout.css";
-import './Checkoutnotif.css';
 import { IoIosCheckmarkCircle } from "react-icons/io";
 
 export const Checkout = () => {
